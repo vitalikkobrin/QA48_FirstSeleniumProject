@@ -19,3 +19,14 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Ignore Gradle build output directory
+build
+/gradle/
+settings.gradle
+\gradlew
+gradlew/
+gradlew.bat
+
+*.log
+*.png
